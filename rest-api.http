@@ -1,0 +1,43 @@
+POST http://127.0.0.1:8000/cat/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "test8"
+}
+
+
+###
+POST http://127.0.0.1:8000/ad/create/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "test8",
+  "author": "vlad",
+  "description": "desc",
+  "address": "michman",
+  "price": 25,
+  "author_id": 1,
+  "category_id": 3
+}
+
+###
+POST http://127.0.0.1:8000/ad/21/update/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Vladissimo"
+}
+
+###
+POST http://127.0.0.1:8000/ad/21/update/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Vladissimo"
+}
+
+###
